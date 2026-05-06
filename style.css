@@ -1,0 +1,18 @@
+
+body{font-family:Arial,sans-serif;margin:0;background:#f7f9fc;color:#1a1a1a;line-height:1.6}
+.hero{background:linear-gradient(135deg,#0b3d91,#1b4fd8);color:white;min-height:80vh}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:bold}
+.brand img{width:40px}
+#nav-links{display:flex;gap:20px;list-style:none}
+#nav-links a{color:white;text-decoration:none}
+#menu-btn{display:none;background:none;border:none;color:white;font-size:28px}
+.hero-content{text-align:center;padding:140px 20px;max-width:800px;margin:auto}
+.hero-content h1{font-size:52px}
+.btn{background:#c8102e;color:white;padding:14px 28px;border-radius:8px;text-decoration:none;border:none;display:inline-block}
+.section{max-width:1100px;margin:auto;padding:80px 20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
+.card{background:white;padding:28px;border-radius:14px;box-shadow:0 10px 25px rgba(0,0,0,.05)}
+form input,form textarea{width:100%;padding:14px;margin-bottom:14px;border:1px solid #ddd;border-radius:8px}
+footer{background:#0b3d91;color:white;text-align:center;padding:30px}
+@media(max-width:768px){#menu-btn{display:block}#nav-links{display:none;position:absolute;right:20px;top:70px;background:white;padding:20px;border-radius:10px;flex-direction:column}#nav-links.active{display:flex}#nav-links a{color:#1a1a1a}.hero-content h1{font-size:36px}}

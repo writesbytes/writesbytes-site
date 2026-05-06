@@ -1,0 +1,1 @@
+const b=document.getElementById('menu-btn');const n=document.getElementById('nav-links');if(b){b.onclick=()=>n.classList.toggle('active')}
